@@ -8,3 +8,6 @@
 
 ## 1강 - Union 소개
   - Union, Discriminated Union, enum에 대한 차이점 소개
+
+## 2강 - Extract 소개
+  - Extract 타입을 이용하여 Discriminated Union에서 원하는 type만 추출하는 방법 소개
