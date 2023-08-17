@@ -11,3 +11,6 @@
 
 ## 2강 - Extract 소개
   - Extract 타입을 이용하여 Discriminated Union에서 원하는 type만 추출하는 방법 소개
+
+## 3강 - Exclude 소개
+  - Exclude 타입을 이용하여 Discriminated Union에서 특정 type을 제거하고 추출하는 방법 소개

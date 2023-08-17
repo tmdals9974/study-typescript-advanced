@@ -35,3 +35,6 @@ function area(shape: Shape): number {
     return shape.width * shape.width;
   }
 }
+
+//* =======================================================
+//! Discriminated Union에서 특정 type을 추출하는 방법은 2.Extract.ts 와 3.Exclude.ts를 참고하세요.
