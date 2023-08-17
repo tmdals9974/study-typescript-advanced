@@ -24,3 +24,7 @@
 ## 1강 - Object indexing 소개
 
 - Object indexing이 무엇인지 소개
+
+## 2강 - Discriminated Object Indexing 소개
+
+- Discriminated Object에서 구분자들만 추출할 수 있는 방법 소개
