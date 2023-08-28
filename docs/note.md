@@ -28,3 +28,7 @@
 ## 2강 - Discriminated Object Indexing 소개
 
 - Discriminated Object에서 구분자들만 추출할 수 있는 방법 소개
+
+## 3강 - enum을 대체하는 as const의 활용
+
+- enum과 유사한 역할을 하는 as const를 소개 및 활용방안 안내
