@@ -38,6 +38,8 @@ color(Color.Red); //키와 값이 동일할 때만 가능.
 color("Red");
 //enumColor("Red") // 💣 error!!
 
+type RedAndBlue = typeof Color["Red" | "Blue"];
+
 /**
  ** https://wiki.after-camp.com/Typescript/enum+vs+as+const
  ** as const와 enum의 사용 목적은 값의 범위를 좁혀서 제한된 값들만 입력하거나 출력하는 것에 있다.
