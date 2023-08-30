@@ -40,3 +40,9 @@
 ## 5강 - Array indexing
 
 - Array 객체를 일부/전체 indexing 하는 방법 소개
+
+# Section 4. Template literals
+
+## 1강 - Template literals 기초
+
+- Template literals 기초 설명
