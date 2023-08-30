@@ -32,3 +32,7 @@
 ## 3강 - enum을 대체하는 as const의 활용
 
 - enum과 유사한 역할을 하는 as const를 소개 및 활용방안 안내
+
+## 4강 - Object value들의 타입을 Union으로 변형
+
+- as const로 만들어진 object values를 union으로 변형하는 방법 소개
