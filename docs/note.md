@@ -36,3 +36,7 @@
 ## 4강 - Object value들의 타입을 Union으로 변형
 
 - as const로 만들어진 object values를 union으로 변형하는 방법 소개
+
+## 5강 - Array indexing
+
+- Array 객체를 일부/전체 indexing 하는 방법 소개
