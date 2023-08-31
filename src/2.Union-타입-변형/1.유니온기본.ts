@@ -26,6 +26,7 @@ interface Rectangle {
   height: number;
 }
 
+// type Shape = unknown;
 type Shape = Square | Rectangle;
 
 function area(shape: Shape): number {

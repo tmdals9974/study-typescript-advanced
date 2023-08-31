@@ -6,6 +6,7 @@ export const fakeDataDefaults = {
   baz: true,
 };
 
+// type fakeDataType = unknown;
 type fakeDataType = typeof fakeDataDefaults;
 
 //object indexing을 이용하여 특정 필드의 타입을 받아올 수 있음.

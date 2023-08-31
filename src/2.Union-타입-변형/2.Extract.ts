@@ -16,6 +16,7 @@ export type Event =
 
 
 //* Extract를 이용하여 특정 조건에 해당하는 타입을 추출할 수 있음.
+// type ClickEvent = unknown; 
 type ClickEvent = Extract<Event, { type: "click" }>; 
 
 type tests = [Expect<Equal<ClickEvent, { type: "click"; event: MouseEvent }>>];

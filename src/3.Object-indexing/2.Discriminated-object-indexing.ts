@@ -15,6 +15,7 @@ export type Event =
 };
 
 //* Discriminated Object에서 구분자들만 추출할 수 있음.
+// type EventType = unknown;
 type EventType = Event["type"];
 
 type tests = [Expect<Equal<EventType, "click" | "focus" | "keydown">>];

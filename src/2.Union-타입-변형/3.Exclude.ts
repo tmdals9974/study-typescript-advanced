@@ -15,6 +15,7 @@ export type Event =
     };
 
 //* Discriminated Union에서 특정 type을 제거하고 추출하는 방법
+// type NonKeyDownEvents = unknown;
 type NonKeyDownEvents = Exclude<Event, { type: "keydown" }>;
 
 type tests = [
