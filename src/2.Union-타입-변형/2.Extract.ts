@@ -15,7 +15,7 @@ export type Event =
     };
 
 
-//* Discriminated Union에서 원하는 type만 추출하는 방법
+//* Extract를 이용하여 특정 조건에 해당하는 타입을 추출할 수 있음.
 type ClickEvent = Extract<Event, { type: "click" }>; 
 
 type tests = [Expect<Equal<ClickEvent, { type: "click"; event: MouseEvent }>>];

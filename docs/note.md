@@ -46,3 +46,8 @@
 ## 1강 - Template literals 기초
 
 - Template literals 기초 설명
+
+## 2강 - Template literals와 Extract
+
+- Extract를 이용하여 Template literals에서 원하는 값만 추출하기
+
