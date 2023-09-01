@@ -54,3 +54,7 @@
 ## 3강 - Combination (조합)
 
 - Template literals들을 조합하는 방법
+
+## 4강 - 패턴을 갖고 있는 Object를 손쉽게 만들기
+
+- object의 key가 특정한 패턴을 가지고 있을 경우 손쉽게 만들 수 있는 방법 안내
