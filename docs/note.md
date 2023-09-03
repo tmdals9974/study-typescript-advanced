@@ -62,3 +62,10 @@
 ## 5강 - Uppercase 유틸리티 타입 소개
 
 - Uppercase 유틸리티 타입 소개
+
+# Section 5. Object 타입 변형
+
+## 1강 - Union을 Object로 변형
+
+- Union을 Object로 변형하는 방법 소개
+
