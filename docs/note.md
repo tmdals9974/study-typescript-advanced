@@ -72,3 +72,9 @@
 ## 2강 - Object value의 타입 변형
 
 - interface를 Object로 변형하는 방법 소개
+
+## 3강 - Object key의 타입 변형
+
+- interface를 Object로 변형하는 방법 소개
+- as를 이용하여 keyof를 변형하는 방법 소개
+- Capitalize 유틸리티 타입을 이용하여 앞글자만 대문자로 변경하는 방법 소개
