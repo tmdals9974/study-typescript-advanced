@@ -69,3 +69,6 @@
 
 - Union을 Object로 변형하는 방법 소개
 
+## 2강 - Object value의 타입 변형
+
+- interface를 Object로 변형하는 방법 소개
