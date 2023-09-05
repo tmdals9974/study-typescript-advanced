@@ -82,3 +82,7 @@
 ## 4강 - Object union type을 object로 타입 변형
 
 - Discriminated Union을 Object로 타입 변형하는 방법 소개
+
+## 5강 - Object를 Tuple로 변형
+
+- Object를 Tuple로 변형하는 방법 소개
