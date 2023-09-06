@@ -86,3 +86,7 @@
 ## 5강 - Object를 Tuple로 변형
 
 - Object를 Tuple로 변형하는 방법 소개
+
+## 6강 - Object key, value를 string union으로 변형
+
+- Object를 template literals로 변형하는 방법 소개
