@@ -90,3 +90,8 @@
 ## 6강 - Object key, value를 string union으로 변형
 
 - Object를 template literals로 변형하는 방법 소개
+
+## 7강 - Object union을 string union으로 변형
+
+- Discriminated Union을 String Union으로 변형하는 방법 소개
+- **중요한 강의임. Section 5에서 주료 사용된 문법들을 설명해줌**
