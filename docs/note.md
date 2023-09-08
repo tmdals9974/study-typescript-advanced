@@ -95,3 +95,9 @@
 
 - Discriminated Union을 String Union으로 변형하는 방법 소개
 - **중요한 강의임. Section 5에서 주료 사용된 문법들을 설명해줌**
+
+# Section 6. 제네릭 기본
+
+## 1강 - 제네릭 기초
+
+- 제네릭 소개
