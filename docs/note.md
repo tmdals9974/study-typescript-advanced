@@ -125,3 +125,8 @@
 ## 7강 - 타입스페이스에서의 rest parameter
 
 - 제네릭을 함수로 제한, rest parameter 사용 방법 소개
+
+## 8강 - 타입스페이스에서의 empty object
+
+- null과 undefined가 들어오지 못하는 제네릭 선언 방법 소개 (type Maybe<T extends {}> = T;)
+- 타입 스페이스에서 {} 가 들어올 떄에는, null과 undefined를 제외한 모든 타입이 들어올 수 있다는 의미
