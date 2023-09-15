@@ -130,3 +130,7 @@
 
 - null과 undefined가 들어오지 못하는 제네릭 선언 방법 소개 (type Maybe<T extends {}> = T;)
 - 타입 스페이스에서 {} 가 들어올 떄에는, null과 undefined를 제외한 모든 타입이 들어올 수 있다는 의미
+
+## 9강 - NonEmptyArray 타입 만들기
+
+- length가 1 이상인 Array 타입 만드는 방법 소개
