@@ -134,3 +134,7 @@
 ## 9강 - NonEmptyArray 타입 만들기
 
 - length가 1 이상인 Array 타입 만드는 방법 소개
+
+## 10강 - Reduce 타입 파라미터
+
+- reduce에 type을 넘겨주어서 반환값 추론이 가능하게 할 수 있음 소개
