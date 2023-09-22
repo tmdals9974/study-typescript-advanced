@@ -158,3 +158,8 @@
 
 - 조건 타입을 이용하여 object를 편집하는 방법 소개 (키 리매핑, 키 새로만들기 등..)
 - object에서 never가 들어올 경우 필드가 제거됨 안내
+
+## 4. 엄청 유용한 Infer 소개
+
+- Infer 사용법 소개
+- infer는 object 데이터에서 value타입에 대해 추론하게 한다. infer는 extends(조건문) 와 함께 사용되어야한다.
