@@ -163,3 +163,7 @@
 
 - Infer 사용법 소개
 - infer는 object 데이터에서 value타입에 대해 추론하게 한다. infer는 extends(조건문) 와 함께 사용되어야한다.
+
+## 5. generics 에서의 infer 사용
+
+- Generic을 추론할 수 있게 infer 사용하는 방법 소개
