@@ -167,3 +167,7 @@
 ## 5. generics 에서의 infer 사용
 
 - Generic을 추론할 수 있게 infer 사용하는 방법 소개
+
+## 6. template literals와 infer
+
+- template literals를 이용한 타입 생성과 infer 소개 (type GetSurname<T> = T extends \`${infer First} ${infer Last}\` ? Last : never;)
