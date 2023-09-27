@@ -171,3 +171,7 @@
 ## 6. template literals와 infer
 
 - template literals를 이용한 타입 생성과 infer 소개 (type GetSurname<T> = T extends \`${infer First} ${infer Last}\` ? Last : never;)
+
+## 7. Next.js 에서의 InferPropsFromServerSideFunction 타입 만들어보기
+
+- async function의 return type을 infer로 추론하는 방법 소개
