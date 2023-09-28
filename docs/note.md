@@ -175,3 +175,7 @@
 ## 7. Next.js 에서의 InferPropsFromServerSideFunction 타입 만들어보기
 
 - async function의 return type을 infer로 추론하는 방법 소개
+
+## 8. 복잡한 조건 타입
+
+- 조건을 복잡하게 걸어 infer를 여러번 사용하는 예제 소개
