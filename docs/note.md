@@ -179,3 +179,9 @@
 ## 8. 복잡한 조건 타입
 
 - 조건을 복잡하게 걸어 infer를 여러번 사용하는 예제 소개
+
+# Section 8. Type Arguments
+
+## 1. 복잡한 Argument 타입 해부해보기
+
+- 복잡한 parameter 타입 Generic으로 추론 예제 소개
