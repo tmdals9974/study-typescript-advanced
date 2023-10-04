@@ -185,3 +185,7 @@
 ## 1. 복잡한 Argument 타입 해부해보기
 
 - 복잡한 parameter 타입 Generic으로 추론 예제 소개
+
+## 2. Object Argument의 Key 타입 추론하기
+
+- Object parameter의 key를 정확하게 추론하는 방법 소개
