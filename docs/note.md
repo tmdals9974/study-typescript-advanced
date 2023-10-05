@@ -189,3 +189,7 @@
 ## 2. Object Argument의 Key 타입 추론하기
 
 - Object parameter의 key를 정확하게 추론하는 방법 소개
+
+## 3. 함수형 언어 Result 타입을 타입스크립트에서 만들어보기
+
+- 함수형 언어에서 사용되는 result 타입 예제 소개 (함수를 trycatch함수로 래핑하여 실행하는 함수)
