@@ -193,3 +193,24 @@
 ## 3. 함수형 언어 Result 타입을 타입스크립트에서 만들어보기
 
 - 함수형 언어에서 사용되는 result 타입 예제 소개 (함수를 trycatch함수로 래핑하여 실행하는 함수)
+
+## 4. Type argument 타입 제한
+
+- function의 parameter에 타입 제한 소개
+- **타입 제한할 경우 return type 추론이 아예 달라짐. 중요하니 꼭 다시 한번 볼 것**
+
+```typescript
+const inferItemLiteral1 = <T>(t: T) => {
+  return {
+    output: t,
+  };
+};
+const result1 = inferItemLiteral1("a"); // output: string으로 추론됨
+
+const inferItemLiteral2 = <T extends string | number>(t: T) => {
+  return {
+    output: t,
+  };
+};
+const result2 = inferItemLiteral1("a"); // output: "a" 로 추론됨
+```
