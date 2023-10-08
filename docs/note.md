@@ -214,3 +214,20 @@ const inferItemLiteral2 = <T extends string | number>(t: T) => {
 };
 const result2 = inferItemLiteral1("a"); // output: "a" 로 추론됨
 ```
+
+## 5. Argument로 넘어온 Array의 타입
+
+- function의 parameter Array에 타입 제한 소개
+- **Array 타입 제한할 경우 return type 추론이 아예 달라짐. 중요하니 꼭 다시 한번 볼 것**
+
+```typescript
+const makeStatus = <TStatuses extends string[]>(statuses: TStatuses) => {
+  return statuses;
+};
+const result1 = makeStatus(["INFO", "DEBUG", "ERROR", "WARNING"]); // string[]으로 추론됨
+
+const makeStatus = <TStatus extends string>(statuses: TStatus[]) => {
+  return statuses;
+};
+const result2 = makeStatus(["INFO", "DEBUG", "ERROR", "WARNING"]); // ("INFO" | "DEBUG" | "ERROR" | "WARNING")[] 로 추론됨
+```
