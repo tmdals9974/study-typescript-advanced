@@ -237,9 +237,19 @@ const result2 = makeStatus(["INFO", "DEBUG", "ERROR", "WARNING"]); // ("INFO" | 
 ## 1. 제네릭과 타입 제한
 
 - 함수의 제네릭 타입 제한과, 리턴값을 정확히 추론할 수 있는 예제 소개
+
 ```typescript
 type GreetingType<TGreeting> = TGreeting extends "goodbye" ? "hello" : "goodbye"; //해당 타입을 통해 리턴값 정확한 추론 가능
 function youSayGoodbyeISayHello<TArg extends "hello" | "goodbye">(greeting: TArg) {
   return (greeting === "goodbye" ? "hello" : "goodbye") as GreetingType<TArg>;
 }
+```
+
+## 2. Curry
+
+- Curry function의 타입추론 예제 소개
+
+```typescript
+//const curryFunction = <T, U, V>(t: T) => (u: U) =>(v: V) => ({t, u, v}); //추론 부정확
+const curryFunction = <T>(t: T) => <U>(u: U) => <V>(v: V) => ({t, u, v});
 ```
