@@ -253,3 +253,11 @@ function youSayGoodbyeISayHello<TArg extends "hello" | "goodbye">(greeting: TArg
 //const curryFunction = <T, U, V>(t: T) => (u: U) =>(v: V) => ({t, u, v}); //추론 부정확
 const curryFunction = <T>(t: T) => <U>(u: U) => <V>(v: V) => ({t, u, v});
 ```
+
+## 3. cache
+
+- cache라는 예제 인터페이스에서, 내부함수의 타입추론 예제 소개
+```typescript
+// clone: (transform: (elem: unknown) => unknown) => Cache<unknown>;
+clone: <U>(transform: (elem: T) => U) => Cache<U>;
+```
